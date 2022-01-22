@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Cello",
+        "repositoryURL": "https://github.com/wittontech/concert-cello",
+        "state": {
+          "branch": "master",
+          "revision": "84aebfbbbbaa9b834213d5a72241655db65e9011",
+          "version": null
+        }
+      },
+      {
+        "package": "Flute",
+        "repositoryURL": "https://github.com/wittontech/concert-flute",
+        "state": {
+          "branch": "master",
+          "revision": "10fc5f22efadcb9647a4cd5afcb8fe523f0c03d3",
+          "version": null
+        }
+      },
+      {
+        "package": "Piano",
+        "repositoryURL": "https://github.com/wittontech/concert-piano",
+        "state": {
+          "branch": "master",
+          "revision": "5c20167968d8f2b0c1d37da896fde5d8e90e36a6",
+          "version": null
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

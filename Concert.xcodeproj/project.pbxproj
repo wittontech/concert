@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0C5EAC279C68EA000F3661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C5EAB279C68EA000F3661 /* AppDelegate.swift */; };
+		2D0C5EAE279C68EA000F3661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C5EAD279C68EA000F3661 /* SceneDelegate.swift */; };
+		2D0C5EB0279C68EA000F3661 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C5EAF279C68EA000F3661 /* MainViewController.swift */; };
+		2D0C5EB3279C68EA000F3661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C5EB1279C68EA000F3661 /* Main.storyboard */; };
+		2D0C5EB5279C68EB000F3661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C5EB4279C68EB000F3661 /* Assets.xcassets */; };
+		2D0C5EB8279C68EB000F3661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C5EB6279C68EB000F3661 /* LaunchScreen.storyboard */; };
+		2D0C5EC3279C68EB000F3661 /* ConcertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C5EC2279C68EB000F3661 /* ConcertTests.swift */; };
+		2D0C5ECD279C68EC000F3661 /* ConcertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C5ECC279C68EC000F3661 /* ConcertUITests.swift */; };
+		2D0C5ECF279C68EC000F3661 /* ConcertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C5ECE279C68EC000F3661 /* ConcertUITestsLaunchTests.swift */; };
+		2D0C5EDD279C69EB000F3661 /* Cello in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0C5EDC279C69EB000F3661 /* Cello */; };
+		2D0C5EE0279C6A0A000F3661 /* Flute in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0C5EDF279C6A0A000F3661 /* Flute */; };
+		2D0C5EE3279C6A81000F3661 /* Piano in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0C5EE2279C6A81000F3661 /* Piano */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0C5EBF279C68EB000F3661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0C5EA0279C68EA000F3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0C5EA7279C68EA000F3661;
+			remoteInfo = Concert;
+		};
+		2D0C5EC9279C68EC000F3661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0C5EA0279C68EA000F3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0C5EA7279C68EA000F3661;
+			remoteInfo = Concert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0C5EA8279C68EA000F3661 /* Concert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0C5EAB279C68EA000F3661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0C5EAD279C68EA000F3661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D0C5EAF279C68EA000F3661 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2D0C5EB2279C68EA000F3661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0C5EB4279C68EB000F3661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0C5EB7279C68EB000F3661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0C5EB9279C68EB000F3661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0C5EBE279C68EB000F3661 /* ConcertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0C5EC2279C68EB000F3661 /* ConcertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertTests.swift; sourceTree = "<group>"; };
+		2D0C5EC8279C68EB000F3661 /* ConcertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0C5ECC279C68EC000F3661 /* ConcertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertUITests.swift; sourceTree = "<group>"; };
+		2D0C5ECE279C68EC000F3661 /* ConcertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0C5EA5279C68EA000F3661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0C5EE3279C6A81000F3661 /* Piano in Frameworks */,
+				2D0C5EDD279C69EB000F3661 /* Cello in Frameworks */,
+				2D0C5EE0279C6A0A000F3661 /* Flute in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C5EBB279C68EB000F3661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C5EC5279C68EB000F3661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0C5E9F279C68EA000F3661 = {
+			isa = PBXGroup;
+			children = (
+				2D0C5EAA279C68EA000F3661 /* Concert */,
+				2D0C5EC1279C68EB000F3661 /* ConcertTests */,
+				2D0C5ECB279C68EC000F3661 /* ConcertUITests */,
+				2D0C5EA9279C68EA000F3661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0C5EA9279C68EA000F3661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0C5EA8279C68EA000F3661 /* Concert.app */,
+				2D0C5EBE279C68EB000F3661 /* ConcertTests.xctest */,
+				2D0C5EC8279C68EB000F3661 /* ConcertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0C5EAA279C68EA000F3661 /* Concert */ = {
+			isa = PBXGroup;
+			children = (
+				2D0C5EAB279C68EA000F3661 /* AppDelegate.swift */,
+				2D0C5EAD279C68EA000F3661 /* SceneDelegate.swift */,
+				2D0C5EAF279C68EA000F3661 /* MainViewController.swift */,
+				2D0C5EB1279C68EA000F3661 /* Main.storyboard */,
+				2D0C5EB4279C68EB000F3661 /* Assets.xcassets */,
+				2D0C5EB6279C68EB000F3661 /* LaunchScreen.storyboard */,
+				2D0C5EB9279C68EB000F3661 /* Info.plist */,
+			);
+			path = Concert;
+			sourceTree = "<group>";
+		};
+		2D0C5EC1279C68EB000F3661 /* ConcertTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0C5EC2279C68EB000F3661 /* ConcertTests.swift */,
+			);
+			path = ConcertTests;
+			sourceTree = "<group>";
+		};
+		2D0C5ECB279C68EC000F3661 /* ConcertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0C5ECC279C68EC000F3661 /* ConcertUITests.swift */,
+				2D0C5ECE279C68EC000F3661 /* ConcertUITestsLaunchTests.swift */,
+			);
+			path = ConcertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0C5EA7279C68EA000F3661 /* Concert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0C5ED2279C68EC000F3661 /* Build configuration list for PBXNativeTarget "Concert" */;
+			buildPhases = (
+				2D0C5EA4279C68EA000F3661 /* Sources */,
+				2D0C5EA5279C68EA000F3661 /* Frameworks */,
+				2D0C5EA6279C68EA000F3661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Concert;
+			packageProductDependencies = (
+				2D0C5EDC279C69EB000F3661 /* Cello */,
+				2D0C5EDF279C6A0A000F3661 /* Flute */,
+				2D0C5EE2279C6A81000F3661 /* Piano */,
+			);
+			productName = Concert;
+			productReference = 2D0C5EA8279C68EA000F3661 /* Concert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0C5EBD279C68EB000F3661 /* ConcertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0C5ED5279C68EC000F3661 /* Build configuration list for PBXNativeTarget "ConcertTests" */;
+			buildPhases = (
+				2D0C5EBA279C68EB000F3661 /* Sources */,
+				2D0C5EBB279C68EB000F3661 /* Frameworks */,
+				2D0C5EBC279C68EB000F3661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0C5EC0279C68EB000F3661 /* PBXTargetDependency */,
+			);
+			name = ConcertTests;
+			productName = ConcertTests;
+			productReference = 2D0C5EBE279C68EB000F3661 /* ConcertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0C5EC7279C68EB000F3661 /* ConcertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0C5ED8279C68EC000F3661 /* Build configuration list for PBXNativeTarget "ConcertUITests" */;
+			buildPhases = (
+				2D0C5EC4279C68EB000F3661 /* Sources */,
+				2D0C5EC5279C68EB000F3661 /* Frameworks */,
+				2D0C5EC6279C68EB000F3661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0C5ECA279C68EC000F3661 /* PBXTargetDependency */,
+			);
+			name = ConcertUITests;
+			productName = ConcertUITests;
+			productReference = 2D0C5EC8279C68EB000F3661 /* ConcertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0C5EA0279C68EA000F3661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2D0C5EA7279C68EA000F3661 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2D0C5EBD279C68EB000F3661 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2D0C5EA7279C68EA000F3661;
+					};
+					2D0C5EC7279C68EB000F3661 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2D0C5EA7279C68EA000F3661;
+					};
+				};
+			};
+			buildConfigurationList = 2D0C5EA3279C68EA000F3661 /* Build configuration list for PBXProject "Concert" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0C5E9F279C68EA000F3661;
+			packageReferences = (
+				2D0C5EDB279C69EB000F3661 /* XCRemoteSwiftPackageReference "concert-cello" */,
+				2D0C5EDE279C6A0A000F3661 /* XCRemoteSwiftPackageReference "concert-flute" */,
+				2D0C5EE1279C6A81000F3661 /* XCRemoteSwiftPackageReference "concert-piano" */,
+			);
+			productRefGroup = 2D0C5EA9279C68EA000F3661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0C5EA7279C68EA000F3661 /* Concert */,
+				2D0C5EBD279C68EB000F3661 /* ConcertTests */,
+				2D0C5EC7279C68EB000F3661 /* ConcertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0C5EA6279C68EA000F3661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0C5EB8279C68EB000F3661 /* LaunchScreen.storyboard in Resources */,
+				2D0C5EB5279C68EB000F3661 /* Assets.xcassets in Resources */,
+				2D0C5EB3279C68EA000F3661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C5EBC279C68EB000F3661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C5EC6279C68EB000F3661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0C5EA4279C68EA000F3661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0C5EB0279C68EA000F3661 /* MainViewController.swift in Sources */,
+				2D0C5EAC279C68EA000F3661 /* AppDelegate.swift in Sources */,
+				2D0C5EAE279C68EA000F3661 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C5EBA279C68EB000F3661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0C5EC3279C68EB000F3661 /* ConcertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0C5EC4279C68EB000F3661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0C5ECD279C68EC000F3661 /* ConcertUITests.swift in Sources */,
+				2D0C5ECF279C68EC000F3661 /* ConcertUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0C5EC0279C68EB000F3661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0C5EA7279C68EA000F3661 /* Concert */;
+			targetProxy = 2D0C5EBF279C68EB000F3661 /* PBXContainerItemProxy */;
+		};
+		2D0C5ECA279C68EC000F3661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0C5EA7279C68EA000F3661 /* Concert */;
+			targetProxy = 2D0C5EC9279C68EC000F3661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0C5EB1279C68EA000F3661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0C5EB2279C68EA000F3661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0C5EB6279C68EB000F3661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0C5EB7279C68EB000F3661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0C5ED0279C68EC000F3661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0C5ED1279C68EC000F3661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0C5ED3279C68EC000F3661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQBK77FFTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Concert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poemcode.Concert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D0C5ED4279C68EC000F3661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQBK77FFTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Concert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poemcode.Concert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D0C5ED6279C68EC000F3661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQBK77FFTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poemcode.ConcertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concert.app/Concert";
+			};
+			name = Debug;
+		};
+		2D0C5ED7279C68EC000F3661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQBK77FFTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poemcode.ConcertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concert.app/Concert";
+			};
+			name = Release;
+		};
+		2D0C5ED9279C68EC000F3661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQBK77FFTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poemcode.ConcertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Concert;
+			};
+			name = Debug;
+		};
+		2D0C5EDA279C68EC000F3661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQBK77FFTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poemcode.ConcertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Concert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0C5EA3279C68EA000F3661 /* Build configuration list for PBXProject "Concert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0C5ED0279C68EC000F3661 /* Debug */,
+				2D0C5ED1279C68EC000F3661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0C5ED2279C68EC000F3661 /* Build configuration list for PBXNativeTarget "Concert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0C5ED3279C68EC000F3661 /* Debug */,
+				2D0C5ED4279C68EC000F3661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0C5ED5279C68EC000F3661 /* Build configuration list for PBXNativeTarget "ConcertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0C5ED6279C68EC000F3661 /* Debug */,
+				2D0C5ED7279C68EC000F3661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0C5ED8279C68EC000F3661 /* Build configuration list for PBXNativeTarget "ConcertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0C5ED9279C68EC000F3661 /* Debug */,
+				2D0C5EDA279C68EC000F3661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D0C5EDB279C69EB000F3661 /* XCRemoteSwiftPackageReference "concert-cello" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wittontech/concert-cello";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2D0C5EDE279C6A0A000F3661 /* XCRemoteSwiftPackageReference "concert-flute" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wittontech/concert-flute";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2D0C5EE1279C6A81000F3661 /* XCRemoteSwiftPackageReference "concert-piano" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wittontech/concert-piano";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D0C5EDC279C69EB000F3661 /* Cello */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0C5EDB279C69EB000F3661 /* XCRemoteSwiftPackageReference "concert-cello" */;
+			productName = Cello;
+		};
+		2D0C5EDF279C6A0A000F3661 /* Flute */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0C5EDE279C6A0A000F3661 /* XCRemoteSwiftPackageReference "concert-flute" */;
+			productName = Flute;
+		};
+		2D0C5EE2279C6A81000F3661 /* Piano */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0C5EE1279C6A81000F3661 /* XCRemoteSwiftPackageReference "concert-piano" */;
+			productName = Piano;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2D0C5EA0279C68EA000F3661 /* Project object */;
+}
