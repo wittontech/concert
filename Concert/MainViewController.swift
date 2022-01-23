@@ -20,6 +20,10 @@ class MainViewController: UITabBarController {
   }
   
   func setupTab() {
+    UITabBar.appearance().barTintColor = UIColor.white
+    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .normal)
+    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.yellow], for: .selected)
+  
     let cello = UINavigationController(rootViewController: CelloViewController())
     cello.tabBarItem = UITabBarItem.init(title: "Cello", image: nil, selectedImage: nil)
     

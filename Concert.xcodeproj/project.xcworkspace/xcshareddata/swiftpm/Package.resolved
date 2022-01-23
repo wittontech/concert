@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/wittontech/concert-cello",
         "state": {
           "branch": "master",
-          "revision": "84aebfbbbbaa9b834213d5a72241655db65e9011",
+          "revision": "b3136bea901786dc2e58a39d0da9a245994e6254",
           "version": null
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/wittontech/concert-flute",
         "state": {
           "branch": "master",
-          "revision": "10fc5f22efadcb9647a4cd5afcb8fe523f0c03d3",
+          "revision": "a147352439ed4a7494fe819edd1c8f8d17249bc0",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/wittontech/concert-piano",
         "state": {
           "branch": "master",
-          "revision": "5c20167968d8f2b0c1d37da896fde5d8e90e36a6",
+          "revision": "bb615027a456f9cd1a071dbbd79e2489bd095e43",
           "version": null
         }
       },
