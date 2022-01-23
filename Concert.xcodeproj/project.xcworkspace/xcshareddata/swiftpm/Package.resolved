@@ -15,7 +15,16 @@
         "repositoryURL": "https://github.com/wittontech/concert-flute",
         "state": {
           "branch": "master",
-          "revision": "a147352439ed4a7494fe819edd1c8f8d17249bc0",
+          "revision": "683b303ccdbdc544c741670102c4c87fe15d38fe",
+          "version": null
+        }
+      },
+      {
+        "package": "Melody",
+        "repositoryURL": "https://github.com/wittontech/concert-melody",
+        "state": {
+          "branch": "master",
+          "revision": "57345def2498a4e1e7c0b6873abcb88d2f360fb9",
           "version": null
         }
       },
@@ -34,6 +43,15 @@
         "state": {
           "branch": null,
           "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "Toast",
+        "repositoryURL": "https://github.com/scalessec/Toast-Swift.git",
+        "state": {
+          "branch": null,
+          "revision": "0c9493eeacb102cc614da385cfaaf475379f4ab4",
           "version": "5.0.1"
         }
       }
